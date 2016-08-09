@@ -1,0 +1,18 @@
+// This is the main content layer, using this to set the fonts for the site, but
+// it won't change fonts for things like the admin toolbar, or main menu.
+.layout-container {
+  font-weight: $base-font-weight;
+  font-size: 1.2em;
+}
+
+.page-title {
+  margin-top: 0;
+}
+
+main {
+  padding: 0 10px;
+}
+
+ul.tabs.primary {
+  border-bottom: 1px solid $color-medium-grey;
+}

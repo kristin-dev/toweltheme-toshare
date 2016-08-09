@@ -1,0 +1,10 @@
+.region-footer-wrapper {
+  @include container($breakpoint-wide-px);
+}
+
+.region-footer {
+  @include span(12);
+  @include clearfix;
+  margin-bottom: gutter();
+  margin-top: gutter();
+}

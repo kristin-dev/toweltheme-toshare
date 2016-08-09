@@ -1,0 +1,21 @@
+#blog-top {
+    @include span(first 12);
+    @include clearfix;
+}
+
+#blog-body {
+    @include span(12);
+    @include clearfix;
+    margin-bottom: gutter();
+}
+
+.blog-body-left, .blog-body-right  {
+    @include span(6);
+}
+
+
+#blog-content-areas {
+    @include span(12);
+    @include clearfix;
+    margin-bottom: gutter();
+}
